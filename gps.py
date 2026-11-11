@@ -1,18 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-GPS simples em Python (leitor de frases NMEA).
-
-Lê dados de um receptor GPS pela porta serial e mostra latitude, longitude,
-altitude, satélites, distância percorrida e link do Google Maps.
-
-Uso rápido:
-    python gps.py --simulado          # sem GPS, dados falsos
-    python gps.py --porta COM3        # com GPS real
-
-Instruções completas: veja o arquivo README.md
-"""
-
 import argparse
 import math
 import random
